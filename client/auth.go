@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	charm "github.com/charmbracelet/charm/proto"
-	jwt "github.com/golang-jwt/jwt/v5"
+	jwt "github.com/golang-jwt/jwt/v4"
 )
 
 // Auth will authenticate a client and cache the result. It will return a
